@@ -1,0 +1,29 @@
+Package: ImmuneInspect
+Title: Inspects if the GEO2R analyzed genes play a role in immune system
+Version: 0.1.0
+Authors@R: 
+    person(given = "Pradeep",
+           family = "Varathan",
+           role = c("aut", "cre"),
+           email = "ppugale@iu.edu",
+           )
+     person(given = "Abigail",
+           family = "Pajulas",
+           role = c("aut", "cre"),
+           email = "apajulas@iu.edu",
+           )
+Description: The package can be used to analyze microarray and RNA-seq GEO datasets after analyzed from GEO2R for 
+             immune cell contributions based on InnateDB database and can also predict if these genes partcipate 
+             in the Adaptive immune system or not.Along with the informational function, we have a function to
+             scdevelop multiple and useful graphs to provide insights to the scientist working on the data.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+      ggplot2,
+      wordcloud,
+      readxl,
+      dplyr,
+      plyr,
+      d3heatmap
+RoxygenNote: 7.0.2
